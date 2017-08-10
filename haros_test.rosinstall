@@ -1,7 +1,7 @@
 - git:
     local-name: catkin_pip
-    uri: https://github.com/gavanderhoorn/catkin_pip.git
-    version: hacky
+    uri: https://github.com/pyros-dev/catkin_pip.git
+    version: devel
 - git:
     local-name: haros
     uri: https://github.com/gavanderhoorn/haros.git
