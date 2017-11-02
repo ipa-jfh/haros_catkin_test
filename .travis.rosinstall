@@ -4,8 +4,5 @@
     version: devel
 - git:
     local-name: haros
-    uri: https://github.com/gavanderhoorn/haros.git
+    uri: https://github.com/ipa-jfh/haros.git
     version: catkinize2
-- git:
-    local-name: test_pkg
-    uri: https://github.com/gavanderhoorn/haros_catkin_test.git
