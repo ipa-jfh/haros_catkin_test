@@ -1,4 +1,4 @@
 - git:
     local-name: haros
     uri: https://github.com/ipa-jfh/haros.git
-    version: catkinize2
+    version: haros_virtualenv
