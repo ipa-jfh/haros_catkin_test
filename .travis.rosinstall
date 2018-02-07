@@ -1,8 +1,0 @@
-- git:
-    local-name: catkin_pip
-    uri: https://github.com/pyros-dev/catkin_pip.git
-    version: devel
-- git:
-    local-name: haros
-    uri: https://github.com/ipa-jfh/haros.git
-    version: catkinize2
