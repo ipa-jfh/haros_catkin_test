@@ -15,8 +15,8 @@ catkin build
 source devel/setup.bash
 
 # let haros analyse and report
-catkin build test_pkg --catkin-make-args haros_report
+catkin build test_pkg --no-deps --catkin-make-args haros_report
 
-# open report in browser
-<browser binary> build/test_pkg/test_results/haros_report/index.html
+# open report in browser (firefox or any <browser binary>)
+firefox build/test_pkg/test_results/haros_report/index.html
 ```
