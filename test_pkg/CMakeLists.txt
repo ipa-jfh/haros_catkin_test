@@ -17,8 +17,6 @@ include_directories(
 
 add_executable(${PROJECT_NAME}_node src/node.cpp)
 set_target_properties(${PROJECT_NAME}_node PROPERTIES OUTPUT_NAME node PREFIX "")
-
-# ${${PROJECT_NAME}_EXPORTED_TARGETS}
 add_dependencies(${PROJECT_NAME}_node ${catkin_EXPORTED_TARGETS})
 
 target_link_libraries(${PROJECT_NAME}_node ${catkin_LIBRARIES})
@@ -35,6 +33,6 @@ install(DIRECTORY
 )
 
 if (CATKIN_ENABLE_TESTING)
-  find_package(haros REQUIRED)
+  find_package(haros_catkin REQUIRED)
   haros_report()
 endif()

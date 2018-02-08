@@ -8,7 +8,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <test_depend>haros</test_depend>
+  <test_depend>haros_catkin</test_depend>
 
   <depend>roscpp</depend>
   <depend>std_msgs</depend>
