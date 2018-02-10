@@ -1,5 +1,12 @@
 # haros test pkg
 
+<p><a href="https://ipa-jfh.github.io/haros_catkin_test/#dashboard"> 
+  <img align="left" src="https://user-images.githubusercontent.com/1840802/30822997-ab05de10-a1df-11e7-87c5-fc7e0de669ff.png" width="46">
+  Result of example
+  <br/><br/>
+</a></p>
+
+
 ```shell
 # setup ROS workspace
 mkdir -p /tmp/haros_catkin_ws/src && cd /tmp/haros_catkin_ws/src
